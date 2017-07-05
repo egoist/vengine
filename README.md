@@ -10,6 +10,8 @@ yarn add vv
 
 ## Usage
 
+Currently it depends on Vue, vue-template-compiler and vue-server-renderer, but I do plan to [make a standalone template engine that supports Vue template syntax without using these libs](https://github.com/egoist/vv/issues/1).
+
 ```js
 const vv = require('vv')
 
