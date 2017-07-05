@@ -1,0 +1,59 @@
+{
+  "name": "vv",
+  "version": "0.0.0",
+  "description": "Vue template engine.",
+  "repository": {
+    "url": "egoist/vv",
+    "type": "git"
+  },
+  "main": "dist/vv.common.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest && npm run lint",
+    "lint": "xo",
+    "prepublish": "npm run build",
+    "build": "bili"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          [
+            "env",
+            {
+              "targets": {
+                "node": "current"
+              }
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "vue": "^2.3.4",
+    "vue-server-renderer": "^2.3.4",
+    "vue-template-compiler": "^2.3.4",
+    "vue-template-es2015-compiler": "^1.5.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "bili": "^0.16.0-rc.2",
+    "eslint-config-rem": "^3.0.0",
+    "jest-cli": "^19.0.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": [
+      "jest"
+    ]
+  }
+}
