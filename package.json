@@ -1,12 +1,12 @@
 {
-  "name": "vv",
+  "name": "vengine",
   "version": "1.0.0",
-  "description": "Vue template engine.",
+  "description": "Template engine using Vue template syntax.",
   "repository": {
-    "url": "egoist/vv",
+    "url": "egoist/vengine",
     "type": "git"
   },
-  "main": "dist/vv.common.js",
+  "main": "dist/vengine.common.js",
   "files": [
     "dist"
   ],
