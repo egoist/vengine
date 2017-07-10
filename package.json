@@ -1,6 +1,6 @@
 {
   "name": "vengine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Template engine using Vue template syntax.",
   "repository": {
     "url": "egoist/vengine",
